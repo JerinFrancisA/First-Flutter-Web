@@ -38,11 +38,12 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Expanded(
-              flex: 5,
-              child: Image(
-                image: NetworkImage(
-                    'https://images.hindi.news18.com/ibnkhabar/uploads/459x306/jpg/2019/08/MS-Dhoni_16c1918e33b_large-1.jpg'),
-              )),
+            flex: 5,
+            child: Image(
+              image: NetworkImage(
+                  'https://images.hindi.news18.com/ibnkhabar/uploads/459x306/jpg/2019/08/MS-Dhoni_16c1918e33b_large-1.jpg'),
+            ),
+          ),
           Expanded(
             flex: 2,
             child: Text(
@@ -61,9 +62,7 @@ class MyHomePage extends StatelessWidget {
                 Icons.alternate_email,
                 size: 20.0,
               ),
-              onPressed: () {
-
-              },
+              onPressed: null,
             ),
           ),
         ],
