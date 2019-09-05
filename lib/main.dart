@@ -3,7 +3,6 @@ import 'package:flutter_web/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -42,7 +41,7 @@ class MyHomePage extends StatelessWidget {
             child: Image(
               image: NetworkImage(
                   'https://images.hindi.news18.com/ibnkhabar/uploads/459x306/jpg/2019/08/MS-Dhoni_16c1918e33b_large-1.jpg'),
-            ),
+            ),  //NetworkImage loaded
           ),
           Expanded(
             flex: 2,
