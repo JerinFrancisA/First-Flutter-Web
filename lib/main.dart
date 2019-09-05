@@ -55,6 +55,7 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
           ),
+          //Flex properties added to column
           Expanded(
             child: IconButton(
               icon: Icon(
